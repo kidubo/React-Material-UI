@@ -14,6 +14,21 @@ const useStyles = makeStyles((theme)=> ({
 
         button: {
             marginTop: "40px",
+        },
+        cardGrid: {
+            padding: "30px 0"
+        },
+        card: {
+            height: "100%",
+            display: "flex",
+            flexDirection: "column"
+            
+        },
+        cardMedia: {
+            paddingTop: "56.25%"
+        },
+        cardContainer: {
+            flexGrow: 1
         }
 }))
 
